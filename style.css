@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Gilroy",sans-serif;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%
+}
+#main{
+    width: 100%;
+    height: 100%
+}
+#Top{
+    width: 100%;
+    height: 55%;
+    background-size: cover;
+    background-position: Top;
+    background-image: url(https://r4.wallpaperflare.com/wallpaper/470/594/477/anime-kimetsu-no-yaiba-shinazugawa-sanemi-kochou-shinobu-giyu-tomioka-kimetsu-no-yaiba-hd-wallpaper-84ab2c509802e9d7794fedb4d2a595d4.jpg);
+}
+#Bottom{
+    width: 100%;
+    height: 45%;
+    display: flex; 
+    background-color: rgb(146, 146, 15);
+}
+#Box1{
+    width: 25%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background: url(https://wallpapers.com/images/high/sukuna-smirk-dark-artwork-5k9ob41c9x2ed64k.webp);
+}
+#Box2{
+    width: 25%;
+    height: 100%;
+    background: url(https://imgs.search.brave.com/0XR_rUEeGiThcoNr0DrCglmOsyjTJVCgwcMRC1ii9Kw/rs:fit:500:0:0:0/g:ce/aHR0cDovL20uZ2V0/dHl3YWxscGFwZXJz/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMy8wOS9MdWZm/eS1HZWFyLTUtcGZw/LmpwZw);
+    background-size: cover;
+    background-position: center;
+}
+#Box3{
+    width: 25%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background: url(https://imgs.search.brave.com/Z7eMZJQ9sFmfUoC_RYPdhLeAATBGuk_hZ8VQ7K4UB9w/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzg5LzNl/L2NlLzg5M2VjZTc3/NDllYzE4NzBjYmIx/MGQ4ZDVjZTk4MzUz/LmpwZw);
+}
+#Box4{
+    width: 25%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background: url(https://imgs.search.brave.com/yTDpqE8PQXSpzTbzOr4iCd_UrupwLtK9fcPcFTTeI1M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93MC5w/ZWFrcHguY29tL3dh/bGxwYXBlci80MzQv/NDE0L0hELXdhbGxw/YXBlci11bHRyYS1l/Z28tdmVnZXRhLWRy/YWdvbi1iYWxsLTIw/MjMuanBn);
+}
+#overlay{
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 80%;
+}
+#Text{
+    position: absolute;
+    align-items: center ;
+    display: flex;
+    justify-content: space-between;
+    bottom: 20%;
+    width: 100%;
+    padding: 1vw 4vw;
+    background-color: red;
+    opacity: 75%;
+}
+h1{
+    color: white;
+    font-size: 3vw;
+    font-weight: 500;
+}
+#Textright{
+    display: flex;
+    color: antiquewhite;
+    font-weight: 600;
+    padding: 0.5vw;
+}
+p{
+    font-size: 0.75vw;
+}
